@@ -29,4 +29,5 @@ inputs = {
   }]
  
   bucket_name_cloud_function = "gcp-terragrunt-cloud-function-bucket"
+  vpc_connector_name = dependency.vpc.outputs.vpc_connector_name
 }
