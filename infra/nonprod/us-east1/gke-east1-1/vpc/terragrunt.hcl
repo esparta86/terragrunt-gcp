@@ -14,6 +14,6 @@ terraform {
 
 inputs ={
    routing_mode_vpc = "REGIONAL"
-   enable_vpc_connector    = true
+   enable_vpc_connector    = false
 
 }
